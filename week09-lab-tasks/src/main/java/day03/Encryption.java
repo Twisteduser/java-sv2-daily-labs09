@@ -1,4 +1,5 @@
 package day03;
 
-public class Encryption {
+public abstract class Encryption {
+    public abstract String encrypts(String input);
 }
